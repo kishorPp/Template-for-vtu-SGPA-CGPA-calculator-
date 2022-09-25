@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> United Calculator </title>
+        <link rel="stylesheet" href="styles.css">
+        <style type="text/css">
+            body{
+                background-image: url("image.jpg");
+                background-size: cover;
+            }
+         </style>
+    </head>
+    <body>
+        <div id="choose"style="display: none;">2</div>
+        <a href="index2.html">
+        <button class="back-button">BACK</button>
+        <div class="main3"><h1>1st & 2nd Semester Chemistry-Cycle</h1></div>
+        </a>
+        <input type="text" class="input" id="input1"  placeholder="18MAT11/21">   
+        <input type="text" class="input" id="input2"  placeholder="18CHE12/22"><br>
+        <input type="text" class="input" id="input3"  placeholder="18CPS13/23">
+        <input type="text" class="input" id="input4"  placeholder="18ELN14/24"><br>
+        <input type="text" class="input" id="input5"  placeholder="18ME15/25">
+        <input type="text" class="input" id="input6"  placeholder="18CHEL16/26"><br>
+        <input type="text" class="input" id="input7"  placeholder="18CPL17/27">
+        <input type="text" class="input" id="input8"  placeholder="18EGH18/28(ENGLISH)"><br>
+        <div>
+            <div class="cgpa_output">
+                <button  class="submit" id="btn_re" onclick="calc_sgpa()">
+                    Calculate SGPA
+                </button>
+                <button  class="submit" id="btn_re" onclick="reset_sgpa()">
+                    reset
+                </button>
+            <div id="results">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

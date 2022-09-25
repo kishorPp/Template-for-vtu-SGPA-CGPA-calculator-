@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>United Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <script src="D:\FR\script.js"></script> -->
+        <style type="text/css">
+            body{
+                background-image: url("image.jpg");
+                background-size: cover;
+            }
+         </style>
+    </head>
+    <body>
+        <a href="imainfile.html">
+        <button class="back-button">BACK</button>
+         <!--cgpa title html part-->
+        <div class="main2"><h1>CGPA Calculator</h1></div>
+        </a>
+        <!--cgpa input html part-->
+        <input type="text" class="input" id="first-gpa" oninput="calc_cgpa()" placeholder="1st Semester SGPA">
+        <input type="text" class="input" id="two-gpa" oninput="calc_cgpa()" placeholder="2nd Semester SGPA"><br>
+        <input type="text" class="input" id="three-gpa" oninput="calc_cgpa()" placeholder="3rd Semester SGPA">
+        <input type="text" class="input" id="four-gpa" oninput="calc_cgpa()" placeholder="4th Semester SGPA"><br>
+        <input type="text" class="input" id="five-gpa" oninput="calc_cgpa()" placeholder="5th Semester SGPA">
+        <input type="text" class="input" id="six-gpa" oninput="calc_cgpa()" placeholder="6th Semester SGPA"><br>
+        <input type="text" class="input" id="seven-gpa" oninput="calc_cgpa()" placeholder="7th Semester SGPA">
+        <input type="text" class="input" id="eight-gpa" oninput="calc_cgpa()" placeholder="8th Semester SGPA"><br>
+        <!--cgpa output html part-->
+        <div class="cgpa_output">
+            <h1> CGPA: <span id="cgpavalue"></span></h1>
+            <button  class="submit" id="btn_re" onclick="reset_()">
+                reset
+            </button>
+       </div>
+       </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+

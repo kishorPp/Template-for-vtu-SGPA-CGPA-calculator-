@@ -1,0 +1,133 @@
+
+.main{
+    color:black;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+} 
+
+.main1{
+    color:purple;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.main2{
+    color:purple;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    left: 2%;
+}
+
+.main3{
+    color: purple;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 38%;
+}
+
+/* main sgpa and copa button*/
+.rectangle{
+    height: 10%;
+    width: 40%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color: black;
+    color: wheat;
+    border: 3px solid red;
+    position: relative;
+    left: 30%;
+    margin-bottom: 15px;
+}
+
+/* main sgpa and copa button hover*/
+.rectangle:hover{
+    color: red;
+    border-color: wheat;
+    font-size:30px ;
+}
+/* css for back button*/
+.back-button{
+    height:50px ;
+    width:150px ;
+    font-size: 35px;
+    background-color: black;
+    color: wheat;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* sgpa input css part*/
+.color-container{
+    background-color: black;
+    color: wheat;
+    border-radius: 35px;
+    width: 300px;
+    height: 170px;
+    margin: 10px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    left: 8%;
+    top:10% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.color-container:hover{
+    background-color: black;
+    color: rgb(213, 34, 34);
+    border-color: wheat;
+    width: 295px;
+    height: 165px;
+}
+
+.cgpa_output{
+    font-family: Arial;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    left:10% ;
+}
+
+.submit{
+    height: 7%;
+    width: 20%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 32%;
+}
+
+.form
+{
+    position: relative;
+}
+
+.input{
+    height:10%;
+    width: 30%;
+    font-size: 25px;
+    font-family: cursive;
+    border: solid 2px red;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    border-radius: 15px;
+    left: 32%;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    position: relative;
+    box-sizing: border-box;
+}

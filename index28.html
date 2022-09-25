@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> United Calculator </title>
+        <link rel="stylesheet" href="stylescss">
+        <style type="text/css">
+            body{
+                background-image: url("image.jpg");
+                background-size: cover;
+            }
+         </style>
+    </head>
+    <body>
+        <div id="choose"style="display: none;">4</div>
+        <a href="index2.html">
+        <button class="back-button">BACK</button>
+        <div class="main3"><h1>8th SEMESTER SGPA</h1></div>
+        </a>
+        <input type="text" class="input" id="input1"  placeholder="18XX81">
+        <input type="text" class="input" id="input2"  placeholder="18XX82"><br>
+        <input type="text" class="input" id="input3"  placeholder="18XXP83">
+        <input type="text" class="input" id="input4"  placeholder="18XXS84"><br>
+        <input type="text" class="input" id="input5"  placeholder="18XX185">
+        <div>
+            <div class="cgpa_output">
+                <button  class="submit" id="btn_re" onclick="calc_sgpa()">
+                    Calculate SGPA
+                </button>
+                <button  class="submit" id="btn_re" onclick="reset_sgpa()">
+                    reset
+                </button>
+            <div id="results">
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
